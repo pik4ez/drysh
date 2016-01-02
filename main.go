@@ -1,9 +1,11 @@
 package main
 
+//go:generate ./gen_imports.sh
+
 import (
 	"fmt"
 	"github.com/pik4ez/drysh/plugin"
-	_ "github.com/pik4ez/dryshplugin/outfile"
+	_ "github.com/pik4ez/drysh/pluginimport"
 )
 
 func main() {
