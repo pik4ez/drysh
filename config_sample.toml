@@ -1,0 +1,8 @@
+[plugins]
+outfile = "github.com/pik4ez/dryshplugin/outfile"
+
+[[out]]
+pattern = "**"
+plugin = "outfile"
+    [out.config]
+    path = "/tmp/outfile.tmp"
